@@ -11,9 +11,9 @@ function loadAndPlayStaggered() {
 
   bufferLoader = new BufferLoader(
     context, [
-      'samples/Kick-LinnDrum-2.wav',
-      'samples/Snare-Mini-1.wav',
-      'samples/ClosedHH TheTrunk 3.wav'
+      '../samples/Kick-LinnDrum-2.wav',
+      '../samples/Snare-Mini-1.wav',
+      '../samples/ClosedHH TheTrunk 3.wav'
     ],
     finishedLoadingStaggered
   );

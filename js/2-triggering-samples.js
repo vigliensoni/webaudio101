@@ -1,5 +1,5 @@
 const context = new AudioContext(); // Create and initialize audio contexy
-const url = './samples/Snare-Mini-1.wav';
+const url = '../samples/Snare-Mini-1.wav';
 // const url = 'https://middleearmedia.com/demos/webaudio/sounds/iwasreborn.wav';
 let source;
 

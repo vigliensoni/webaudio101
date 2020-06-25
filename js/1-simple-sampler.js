@@ -3,7 +3,7 @@ const getSound = new XMLHttpRequest(); // Load the sound with XMLHttpRequest
 let electro; // Create the variable for the audio data
 let playSound; // Create the variable for the sound
 
-getSound.open('GET', './samples/Snare-Mini-1.wav', true);
+getSound.open('GET', '../samples/Snare-Mini-1.wav', true);
 getSound.responseType = 'arraybuffer'; // Read as binary data
 getSound.onload = function() {
   context.decodeAudioData(getSound.response, function(buffer){
